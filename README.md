@@ -92,5 +92,58 @@ print("  Updated List of Subjects:")
 print("-----------------------------")   
 print("1.Maths")   
 print("2.Science")   
+
+# Python-coding--challenge3
+
+#Create a 2D list where each row holds a contact’s name, phone number, and email address.
+emp_details=[
+    ["Archana", "9876543210", "alice@example.com"],
+    ["Balu", "9123456789", "bob@example.com"],
+    ["Charles", "9998887777", "charlie@example.com"],
+    ["Dee", "9112233445", "david@example.com"],
+    ["Eve", "9001122334", "eve@example.com"]
+]
+#Allow the user to add a new contact.
+emp_details.extend([["Dev", "9058745622", "dev25@gmail.com"]])
+emp_details
+
+# Python-coding--challenge4
+
+#Create a dictionary with student names as keys and their grades as values.
+
+students= {
+    "Arun": 92,
+    "Brabhu": 85,
+    "Chinna": 78,
+    "Deva": 88,
+    "Ethicraj": 95
+}
+students
+#Allow the user to add or update grades for at least 3 students
+students.update({"Chinna": 98})
+print(students)
+
+#Create a set of hobbies and allow the user to input at least 3 hobbies.
+
+hobbies_set={"learning,knitting,cooking,writting,Gardening"}
+print(hobbies_set)
+#Convert the set of hobbies into a frozenset and display it.
+frozen_hobbies_set=frozenset(hobbies_set)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 print("3.English")   
 print("4.ComputerScience")   
+# Python-coding--challenge2
