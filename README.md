@@ -135,6 +135,51 @@ frozen_hobbies_set=frozenset(hobbies_set)
 
 
 
+# Python-coding--challenge5
+
+
+Python Tasks
+1. Create Arrays
+
+1D array
+
+2D array
+
+3D array
+
+2. Perform Arithmetic Operations
+
+Addition
+
+Subtraction
+
+Multiplication
+
+Division
+
+These operations should work element-wise on arrays.
+
+3. Use NumPy Functions
+
+Use the following functions on arrays:
+
+Function	Description
+mean()	Calculate average value
+sum()	Compute total sum
+std()	Standard deviation
+reshape()	Change array shape
+arange()	Create sequence of numbers
+linspace()	Generate evenly spaced numbers
+4. Index Operations
+
+Find index of maximum value
+
+Find index of minimum value
+
+Use:
+
+np.argmax(array)
+np.argmin(array)
 
 
 
